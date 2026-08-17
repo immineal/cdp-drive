@@ -47,9 +47,10 @@ MIT, see `LICENSE`.
 
 ## The rest of the bugs
 
-This file works around two of them. React-controlled inputs that ignore
-plain `.value` assignment, two state-changing clicks racing a
+This file already works around the ones above — including React-controlled
+inputs that ignore a plain `.value` assignment, via the `realtype` step.
+Two more that aren't fixed here — two state-changing clicks racing a
 framework's own re-render, and telling a dead one-time token apart from
-a mail scanner that already burned it, are written up with the full
+a mail scanner that already burned it — are written up with the full
 diagnosis in [Agent Ops Cookbook](https://laterrr.gumroad.com/l/agent-ops-cookbook)
 (PDF + this same driver, $9).
