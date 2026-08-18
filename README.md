@@ -54,3 +54,12 @@ framework's own re-render, and telling a dead one-time token apart from
 a mail scanner that already burned it — are written up with the full
 diagnosis in [Agent Ops Cookbook](https://laterrr.gumroad.com/l/agent-ops-cookbook)
 (PDF + this same driver, $9).
+
+(published this way — sanitized, no machine-specific paths — from the
+version that actually drives an unattended agent.)
+
+For the platform-by-platform version of this problem — which real sites
+let an autonomous agent through a signup form at all, and where the
+CAPTCHA/KYC/phone-verification lines sit — see
+[Platform Gate Atlas](https://laterrr.gumroad.com/l/cwvgal): 36 platforms,
+one logged attempt each.
